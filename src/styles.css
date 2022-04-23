@@ -27,7 +27,7 @@ button:hover {
 }
 .background {
   max-width: 900px;
-  margin: 150px auto;
+  margin: 150px 198px 10px 198px;
   background: #e7eaf6;
   padding: 40px;
   border: 1px solid #e7eaf6;
@@ -91,6 +91,11 @@ button:hover {
   position: relative;
   margin-top: -25px;
   padding: 0;
+}
+
+.sourceCode {
+  display: inline;
+  margin: 200px;
 }
 #temperature {
   font-size: 50px;
