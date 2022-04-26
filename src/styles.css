@@ -77,30 +77,34 @@ button:hover {
 .week {
   font-size: 19px;
   line-height: 30px;
-  margin-right: 20px;
   color: #757575;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400px;
   padding-bottom: 30px;
+  height: 150px;
 }
 .weather-icon {
   font-size: 38px;
-  line-height: 1px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 .celFah {
   position: relative;
-  margin-top: -25px;
   padding: 0;
+  margin-left: -50px;
 }
 
 .sourceCode {
   display: inline;
   margin: 200px;
 }
+.displayCurrent {
+  height: 50px;
+}
 #temperature {
   font-size: 50px;
   position: relative;
-  margin-left: 45px;
+  margin-left: 20px;
 }
 #current-description {
   text-transform: capitalize;
